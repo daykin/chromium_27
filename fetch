@@ -5,4 +5,4 @@
 
 base_dir=$(dirname "$0")
 
-PYTHONDONTWRITEBYTECODE=1 exec python "$base_dir/fetch.py" "$@"
+PYTHONDONTWRITEBYTECODE=1 exec /home/daykin/local/Python-2.7.11/python "$base_dir/fetch.py" "$@"
